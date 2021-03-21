@@ -2,3 +2,4 @@
 build
 TEMP/*
 !TEMP/.gitkeep
+bin/PSYQ.INI

@@ -20,9 +20,9 @@ set(CMAKE_SYSROOT ${PSYQ_DIR})
 
 set(CMAKE_C_FLAGS "-O3 -Dpsx -Xo0x80010000")
 
-include_directories(${PSYQ_DIR}/INCLUDE)
+include_directories(${PSYQ_DIR}/include)
 
-link_directories(${PSYQ_DIR}/LIB)
+link_directories(${PSYQ_DIR}/lib)
 
 link_libraries(
   libgs
