@@ -1,0 +1,5 @@
+.vscode
+GNU/ccspx_proxy.exe
+build
+TEMP/*
+!TEMP/.gitkeep
